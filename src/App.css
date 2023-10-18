@@ -9,6 +9,10 @@ h1 {
   color: azure;
 }
 
+span {
+  color: red;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
