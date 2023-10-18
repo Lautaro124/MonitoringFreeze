@@ -36,7 +36,7 @@ const App = () => {
   return (
     <>
       <h2>Temperatura de la heladera</h2>
-      <h1>{temperature !== null ? `${temperature}°C` : ' '}</h1>
+      <h1>{temperature !== null ? `${temperature}°C` : 'Cargando...'}</h1>
       <span>{errors}</span>
     </>
   );
